@@ -4,7 +4,7 @@ import { URIStore } from '../../useStore'
 const Header = () => {
   const uris = URIStore((state) => state.uris)
   return (
-    <header className='fixed top-0 left-0 right-0 bg-[rgba(255,255,255,0.9)] py-60'>
+    <header className='fixed top-0 left-0 right-0 z-[100] bg-[rgba(255,255,255,0.9)] py-60'>
       <div className="container">
         <nav className='flex items-center justify-between'>
           <Link to='/odyssey/'>

@@ -6,7 +6,9 @@ const Layout = () => {
   return (
     <>
         <Header />
-        <Outlet />
+        <main className="flex-auto mt-[9.945vw] pt-20">
+          <Outlet />
+        </main>
         <Footer />
     </>
   )
