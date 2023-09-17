@@ -1,8 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Layout from './components/layout/Layout'
+
 function App() {
   return (
-    <>
-      <h1 className=" text-8xl"></h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/odyssey/" element={<Layout />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
