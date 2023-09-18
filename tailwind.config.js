@@ -6,6 +6,9 @@ module.exports = {
       './index.html',
     ],
     theme: {
+      screens: {
+        'tablet': {'max': '1024px'}
+      },
       fontFamily: {
         'plus-jakarta': ['Plus Jakarta Sans', 'sans-serif']
       },
