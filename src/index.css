@@ -10,5 +10,10 @@
         @media (max-width: 1024px) {
             max-width: 92.4%;
         }
+
+        @media (max-width: 512px) {
+            max-width: none;
+            padding: 0 6.4vw;
+        }
     }
 }

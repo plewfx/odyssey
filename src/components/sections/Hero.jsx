@@ -17,24 +17,24 @@ const Hero = () => {
     }, []);
 
     return (
-        <section>
+        <section className="mobile:bg-1 bg-cover bg-left">
             <div className="container">
                 <div className="flex">
-                    <div className="bg-1 bg-cover bg-left-top w-full h-[27.7vw] tablet:h-[37.2vw] rounded-40 tablet:rounded-[4vw] pt-60 tablet:pt-[3.9vw] pl-60 tablet:pl-[3.9vw]">
-                        <h1 className="text-white text-64 tablet:text-[3.9vw] font-black max-w-[28%] tablet:max-w-[33%]">Unveiling the Wonders of the Universe</h1>
+                    <div className="bg-1 mobile:bg-[url()] bg-cover bg-left-top w-full h-[27.7vw] tablet:h-[37.2vw] mobile:h-[106vw] rounded-40 tablet:rounded-[4vw] pt-60 tablet:pt-[3.9vw] mobile:pt-[8.53vw] pl-60 tablet:pl-[3.9vw] mobile:pl-[0vw]">
+                        <h1 className="text-white text-64 tablet:text-[3.9vw] mobile:text-[8.53vw] font-black max-w-[28%] tablet:max-w-[33%] mobile:max-w-none">Unveiling the Wonders of the Universe</h1>
                     </div>
-                    <div className="absolute right-[10vw] tablet:right-[5vw] tablet:top-[16vw]">
-                        <div className="z-50 absolute bottom-[25%] tablet:bottom-[17%] -left-[5%] tablet:left-0 flex flex-col gap-20 tablet:gap-[1.6vw] bg-white rounded-24 tablet:rounded-[2.4vw] p-20 tablet:p-[2vw] shadow-grey">
-                            <div className="flex items-center gap-10 tablet:gap-[1.6vw]">
-                                <div className="p-10 tablet:p-[1vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw]">
-                                    <svg className="w-[1vw] h-[1vw] shadow-grey tablet:w-[1.93vw] tablet:h-[1.93vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <div className="absolute right-[10vw] tablet:right-[5vw] mobile:-right-[1vw] tablet:top-[16vw] mobile:top-[70vw]">
+                        <div className="z-50 absolute bottom-[25%] tablet:bottom-[17%] mobile:bottom-[17%] -left-[5%] tablet:left-0 mobile:left-[15vw] flex flex-col gap-20 tablet:gap-[1.6vw] mobile:gap-[3.2vw] bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                            <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
+                                <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
+                                    <svg className="w-[1vw] h-[1vw] shadow-grey tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M11.9872 0.197443C15.9158 0.989546 19.0104 4.08418 19.8025 8.01276C20.0209 9.09554 19.1046 9.99999 18 9.99999H12C10.8954 9.99999 10 9.10456 10 7.99999V1.99999C10 0.89542 10.9045 -0.0208739 11.9872 0.197443ZM0 11C0 6.19722 3.76201 2.2731 8.5 2.01366V8.00004C8.5 9.93303 10.067 11.5 12 11.5H17.9863C17.7269 16.238 13.8028 20 9 20C4.02944 20 0 15.9706 0 11Z" fill="white"/>
                                     </svg>
                                 </div>
-                                <h3 className="font-semibold tablet:text-[1.75vw]">Spacewalks</h3>
+                                <h3 className="font-semibold tablet:text-[1.75vw] mobile:text-[3.43vw]">Spacewalks</h3>
                             </div>
-                            <div className="flex items-center gap-10 tablet:gap-[0.8vw]">
-                                <svg className="w-[10vw] tablet:w-[13.8vw] h-[5.12vw] tablet:h-[8vw]" xmlns="http://www.w3.org/2000/svg" width="191" height="99" viewBox="0 0 191 99" fill="none">
+                            <div className="flex items-center gap-10 tablet:gap-[0.8vw] mobile:gap-[1.5vw]">
+                                <svg className="w-[10vw] tablet:w-[13.8vw] mobile:w-[25.33vw] h-[5.12vw] tablet:h-[8vw] mobile:h-[13.06vw]" xmlns="http://www.w3.org/2000/svg" width="191" height="99" viewBox="0 0 191 99" fill="none">
                                     <g clipPath="url(#clip0_1_108)">
                                         <path d="M190.33 0.550049H0.5V97.91H190.33V0.550049Z" stroke="#A9C2CB" strokeMiterlimit="10"/>
                                         <path d="M19.8199 0.550049V97.91" stroke="#A9C2CB" strokeMiterlimit="10"/>
@@ -96,7 +96,7 @@ const Hero = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <svg className="w-[5vw] tablet:w-[6.9vw] h-[5.12vw] tablet:h-[8vw]" xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95" fill="none">
+                                <svg className="w-[5vw] tablet:w-[6.9vw] mobile:w-[13.06vw] h-[5.12vw] tablet:h-[8vw] mobile:h-[13.06vw]" xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95" fill="none">
                                     <g clipPath="url(#clip0_1_133)">
                                         <path d="M47.49 47.36L2.48999 32.73C5.47431 23.1611 11.4639 14.8091 19.57 8.91321C27.6762 3.01733 37.467 -0.108301 47.49 3.86862e-05V47.36Z" fill="#171E27" fillOpacity="0.6"/>
                                         <path d="M47.4899 47.36L75.3299 85.67C65.168 93.0519 52.49 96.0948 40.0846 94.1295C27.6791 92.1641 16.5625 85.3514 9.17995 75.19C4.67975 69.1984 1.71454 62.1964 0.54317 54.7951C-0.628202 47.3939 0.0298738 39.8184 2.45995 32.73L47.4899 47.36Z" fill="#171E27" fillOpacity="0.8"/>
@@ -111,17 +111,17 @@ const Hero = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="z-50 absolute bottom-[45%] tablet:bottom-[38%] right-[3%] tablet:right-0 flex flex-col gap-20 bg-white rounded-24 py-20 pr-36 pl-20 tablet:p-[2vw] shadow-grey">
-                            <div className="flex items-center gap-10 tablet:gap-[1.6vw]">
-                                <div className="p-10 tablet:p-[1vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw]">
-                                    <svg className="w-[0.9vw] h-[0.9vw] tablet:w-[1.93vw] tablet:h-[1.93vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                        <div className="z-50 absolute bottom-[45%] tablet:bottom-[38%] mobile:bottom-[40%] right-[3%] tablet:right-0 mobile:right-[7%] flex flex-col gap-20 bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] py-20 pr-36 pl-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                            <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
+                                <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
+                                    <svg className="w-[0.9vw] h-[0.9vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
                                         <path d="M10.765 1.70229L10 2.52422L9.23495 1.70229C7.12233 -0.567428 3.69709 -0.56743 1.58447 1.70229C-0.528155 3.972 -0.528156 7.65194 1.58447 9.92165L8.4699 17.3191C9.31495 18.227 10.685 18.227 11.5301 17.3191L18.4155 9.92165C20.5282 7.65194 20.5282 3.972 18.4155 1.70229C16.3029 -0.567429 12.8777 -0.567429 10.765 1.70229Z" fill="white"/>
                                     </svg>
                                 </div>
-                                <h3 className="font-semibold tablet:text-[1.75vw]">Exercising</h3>
+                                <h3 className="font-semibold tablet:text-[1.75vw] mobile:text-[3.43vw]">Exercising</h3>
                             </div>
                             <div className="flex items-center">
-                                <svg className="w-[10vw] tablet:w-[17vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
+                                <svg className="w-[10vw] tablet:w-[17vw] mobile:w-[33.33vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
                                     <g clipPath="url(#clip0_1_42)">
                                         <path d="M1.17004 41.34C1.17004 41.34 4.26005 44.4 14.55 39.64C24.84 34.88 19.7 43.2801 24.55 42.3101C29.4 41.3401 29.69 36.52 34.07 38.16C38.45 39.8 37.93 43.72 41.53 38.79C45.13 33.86 45.39 1.17004 45.39 1.17004L47.97 40.17C47.97 40.17 57.97 44.93 65.47 32.68C72.97 20.43 78.59 30.47 79.11 35.57C79.63 40.67 87.1101 44.57 91.2001 38.98C91.2001 38.98 94.04 36.2501 97.38 41.7001C100.72 47.1501 104.59 37.1 104.59 37.1C104.59 37.1 109.48 35.1 111.28 41.87L117.97 1.19004L121.83 41.36C124.48 41.9682 127.257 41.6796 129.726 40.5395C132.194 39.3993 134.215 37.4721 135.47 35.0601C140.36 26.3801 147.57 23.49 153.23 36.59C153.23 36.59 158.36 47.1101 170.02 38.09C170.02 38.09 177.26 32.8101 181.69 39.4501H191.95" stroke="url(#paint0_linear_1_42)" strokeWidth="2.34" strokeLinecap="round" strokeLinejoin="round"/>
                                     </g>
@@ -137,30 +137,30 @@ const Hero = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="z-50 absolute -bottom-[13%] right-[20%] tablet:right-[12%] flex flex-col gap-20 bg-black-100 rounded-24 tablet:rounded-[2.4vw] p-20 tablet:p-[2vw] shadow-grey">
-                            <div className="flex items-center gap-10 tablet:gap-[1vw]">
-                                <div className="p-10 tablet:p-[1vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw]">
-                                    <svg className="w-[1vw] h-[1vw] tablet:w-[1.93vw] tablet:h-[1.93vw]" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
+                        <div className="z-50 absolute -bottom-[13%] mobile:-bottom-[18%] right-[20%] tablet:right-[12%] mobile:right-[7%] flex flex-col gap-20 bg-black-100 rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[6.4vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                            <div className="flex items-center gap-10 tablet:gap-[1vw] mobile:gap-[3.2vw]">
+                                <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
+                                    <svg className="w-[1vw] h-[1vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M6.20412 2.13575C7.09202 1.88462 8.02967 1.75 9 1.75C9.97033 1.75 10.908 1.88462 11.7959 2.13575C12.1945 2.24849 12.609 2.01676 12.7217 1.61818C12.8344 1.21961 12.6027 0.805108 12.2041 0.692376C11.1847 0.404046 10.1097 0.25 9 0.25C7.89028 0.25 6.81531 0.404046 5.79588 0.692376C5.3973 0.805108 5.16558 1.21961 5.27831 1.61818C5.39104 2.01676 5.80554 2.24849 6.20412 2.13575ZM17.5 11.5C17.5 16.1944 13.6944 20 9 20C4.30558 20 0.5 16.1944 0.5 11.5C0.5 6.80558 4.30558 3 9 3C13.6944 3 17.5 6.80558 17.5 11.5ZM9.75 7C9.75 6.58579 9.41421 6.25 9 6.25C8.58579 6.25 8.25 6.58579 8.25 7V10.7007C7.80165 10.96 7.5 11.4448 7.5 12C7.5 12.8284 8.17157 13.5 9 13.5C9.82843 13.5 10.5 12.8284 10.5 12C10.5 11.4448 10.1984 10.96 9.75 10.7007V7Z" fill="white"/>
                                     </svg>
                                 </div>
-                                <h3 className="font-semibold text-white tablet:text-[1.75vw]">Total time in space </h3>
+                                <h3 className="font-semibold text-white tablet:text-[1.75vw] mobile:text-[3.43vw]">Total time in space </h3>
                             </div>
-                            <div className="flex items-center pl-50 tablet:pl-[5vw]">
-                                <span className="text-24 tablet:text-[2vw] font-extrabold text-white tracking-[0.7vw] tablet:tracking-[1vw]">352D 5H 49M 20S</span>
+                            <div className="flex items-center pl-50 tablet:pl-[5vw] mobile:pl-[11.73vw]">
+                                <span className="text-24 tablet:text-[2vw] mobile:text-[4.26vw] font-extrabold text-white tracking-[0.7vw] tablet:tracking-[1vw] mobile:tracking-[2.13vw]">352D 5H 49M 20S</span>
                             </div>
                         </div>
-                        <div className="bg-2 bg-cover w-[40vw] tablet:w-[51.7vw] h-[40vw] tablet:h-[51.7vw] -scale-x-[1]"></div>
+                        <div className="bg-2 bg-cover w-[40vw] tablet:w-[51.7vw] mobile:w-[110.4vw] h-[40vw] mobile:h-[110.4vw] tablet:h-[51.7vw] -scale-x-[1]"></div>
                     </div>
                 </div>
-                <div className="flex flex-col gap-40 tablet:gap-[3.2vw] mt-40 tablet:mt-[3.2vw] max-w-[44%]">
-                    <p className="font-medium leading-180 tablet:text-[1.6vw]">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos. </p>
-                    <div className="flex items-center justify-between">
-                        <Link className="text-white text-24 tablet:text-[2vw] font-semibold py-26 tablet:py-[2vw] px-54 tablet:px-[4vw] bg-black-100 shadow-black rounded-20 tablet:rounded-[1.6vw]">Get Started</Link>
-                        <div className="flex items-center gap-20 tablet:gap-[1vw]">
-                            <span className="text-24 tablet:text-[2vw] font-semibold">{screenSize.width <= 1024 ? 'Watch Video' : 'Watch the Video'}</span>
-                            <div className="p-10 tablet:p-[1vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw]">
-                                <svg className="w-[1vw] h-[1vw] tablet:w-[2vw] tablet:h-[2vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <div className="flex mobile:absolute flex-col gap-40 tablet:gap-[3.2vw] mobile:gap-[6.4vw] mt-40 tablet:mt-[75.2vw] max-w-[44%] mobile:max-w-none">
+                    <p className="font-medium leading-180 tablet:text-[1.6vw] mobile:text-[4.26vw]">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos. </p>
+                    <div className="flex mobile:flex-col items-center mobile:items-start justify-between mobile:gap-[11vw]">
+                        <Link className="text-white text-24 tablet:text-[2vw] mobile:text-[5.33vw] font-semibold py-26 tablet:py-[2vw] mobile:py-[5.33vw] px-54 tablet:px-[4vw] mobile:px-[10.66vw] bg-black-100 shadow-black rounded-20 tablet:rounded-[1.6vw] mobile:rounded-[4.26vw]">Get Started</Link>
+                        <div className="flex items-center gap-20 tablet:gap-[1vw] mobile:gap-[3.2vw]">
+                            <span className="text-24 tablet:text-[2vw] mobile:text-[5.33vw] font-semibold">{screenSize.width <= 1024 ? 'Watch Video' : 'Watch the Video'}</span>
+                            <div className="p-10 tablet:p-[1vw] mobile:p-[2.5vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw]">
+                                <svg className="w-[1vw] h-[1vw] tablet:w-[2vw] tablet:h-[2vw] mobile:w-[5.33vw] mobile:h-[5.33vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M0 10.0058C0 4.48625 4.48842 0 10 0C15.5116 0 20 4.48625 20 10.0058C20 15.5137 15.5116 20 10 20C4.48842 20 0 15.5137 0 10.0058ZM13.668 11.0178C13.7741 10.9117 13.9093 10.7477 13.9382 10.7091C14.0927 10.5065 14.1699 10.2557 14.1699 10.0058C14.1699 9.72504 14.083 9.46454 13.9189 9.25229C13.9055 9.23885 13.8791 9.21019 13.8448 9.17284C13.7806 9.10296 13.6885 9.00264 13.6004 8.91462C12.8089 8.06561 10.7432 6.67631 9.66216 6.25181C9.49807 6.18524 9.08301 6.03956 8.861 6.02991C8.64865 6.02991 8.44595 6.07815 8.2529 6.17463C8.01158 6.3097 7.81853 6.52195 7.71236 6.77279C7.64479 6.94645 7.53861 7.46744 7.53861 7.47709C7.43243 8.04631 7.37452 8.9725 7.37452 9.99518C7.37452 10.9706 7.43243 11.8572 7.51931 12.4361C7.52169 12.4385 7.53 12.4799 7.5429 12.5442C7.58211 12.7397 7.6638 13.1471 7.75097 13.314C7.96332 13.7192 8.37838 13.9701 8.82239 13.9701H8.861C9.15058 13.9604 9.75869 13.7096 9.75869 13.7C10.7819 13.2754 12.7992 11.9537 13.61 11.0757L13.668 11.0178Z" fill="white"/>
                                 </svg>
                             </div>

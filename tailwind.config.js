@@ -7,7 +7,8 @@ module.exports = {
     ],
     theme: {
       screens: {
-        'tablet': {'max': '1024px'}
+        'tablet': {'max': '1024px'},
+        'mobile': {'max': '512px'},        
       },
       fontFamily: {
         'plus-jakarta': ['Plus Jakarta Sans', 'sans-serif']
