@@ -153,7 +153,7 @@ const Hero = () => {
                         <div className="bg-2 bg-cover w-[40vw] tablet:w-[51.7vw] mobile:w-[110.4vw] h-[40vw] mobile:h-[110.4vw] tablet:h-[51.7vw] -scale-x-[1]"></div>
                     </div>
                 </div>
-                <div className="flex mobile:absolute flex-col gap-40 tablet:gap-[3.2vw] mobile:gap-[6.4vw] mt-40 tablet:mt-[75.2vw] max-w-[44%] mobile:max-w-none">
+                <div className="flex mobile:absolute flex-col gap-40 tablet:gap-[3.2vw] mobile:gap-[6.4vw] mt-40 tablet:mt-[3.2vw] mobile:mt-[75.2vw] max-w-[44%] mobile:max-w-none">
                     <p className="font-medium leading-180 tablet:text-[1.6vw] mobile:text-[4.26vw]">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos. </p>
                     <div className="flex mobile:flex-col items-center mobile:items-start justify-between mobile:gap-[11vw]">
                         <Link className="text-white text-24 tablet:text-[2vw] mobile:text-[5.33vw] font-semibold py-26 tablet:py-[2vw] mobile:py-[5.33vw] px-54 tablet:px-[4vw] mobile:px-[10.66vw] bg-black-100 shadow-black rounded-20 tablet:rounded-[1.6vw] mobile:rounded-[4.26vw]">Get Started</Link>
