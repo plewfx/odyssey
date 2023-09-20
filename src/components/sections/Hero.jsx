@@ -27,7 +27,7 @@ const Hero = () => {
                         <div className="z-50 absolute bottom-[25%] tablet:bottom-[17%] mobile:bottom-[17%] -left-[5%] tablet:left-0 mobile:left-[15vw] flex flex-col gap-20 tablet:gap-[1.6vw] mobile:gap-[3.2vw] bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
                             <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
-                                    <svg className="w-[1vw] h-[1vw] shadow-grey tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <svg className="w-[1vw] h-[1vw] icon-shadow tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M11.9872 0.197443C15.9158 0.989546 19.0104 4.08418 19.8025 8.01276C20.0209 9.09554 19.1046 9.99999 18 9.99999H12C10.8954 9.99999 10 9.10456 10 7.99999V1.99999C10 0.89542 10.9045 -0.0208739 11.9872 0.197443ZM0 11C0 6.19722 3.76201 2.2731 8.5 2.01366V8.00004C8.5 9.93303 10.067 11.5 12 11.5H17.9863C17.7269 16.238 13.8028 20 9 20C4.02944 20 0 15.9706 0 11Z" fill="white"/>
                                     </svg>
                                 </div>
@@ -114,14 +114,14 @@ const Hero = () => {
                         <div className="z-50 absolute bottom-[45%] tablet:bottom-[38%] mobile:bottom-[40%] right-[3%] tablet:right-0 mobile:right-[7%] flex flex-col gap-20 bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] py-20 pr-36 pl-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
                             <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
-                                    <svg className="w-[0.9vw] h-[0.9vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                                    <svg className="icon-shadow w-[0.9vw] h-[0.9vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
                                         <path d="M10.765 1.70229L10 2.52422L9.23495 1.70229C7.12233 -0.567428 3.69709 -0.56743 1.58447 1.70229C-0.528155 3.972 -0.528156 7.65194 1.58447 9.92165L8.4699 17.3191C9.31495 18.227 10.685 18.227 11.5301 17.3191L18.4155 9.92165C20.5282 7.65194 20.5282 3.972 18.4155 1.70229C16.3029 -0.567429 12.8777 -0.567429 10.765 1.70229Z" fill="white"/>
                                     </svg>
                                 </div>
                                 <h3 className="font-semibold tablet:text-[1.75vw] mobile:text-[3.43vw]">Exercising</h3>
                             </div>
                             <div className="flex items-center">
-                                <svg className="w-[10vw] tablet:w-[17vw] mobile:w-[33.33vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
+                                <svg className="icon-shadow w-[10vw] tablet:w-[17vw] mobile:w-[33.33vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
                                     <g clipPath="url(#clip0_1_42)">
                                         <path d="M1.17004 41.34C1.17004 41.34 4.26005 44.4 14.55 39.64C24.84 34.88 19.7 43.2801 24.55 42.3101C29.4 41.3401 29.69 36.52 34.07 38.16C38.45 39.8 37.93 43.72 41.53 38.79C45.13 33.86 45.39 1.17004 45.39 1.17004L47.97 40.17C47.97 40.17 57.97 44.93 65.47 32.68C72.97 20.43 78.59 30.47 79.11 35.57C79.63 40.67 87.1101 44.57 91.2001 38.98C91.2001 38.98 94.04 36.2501 97.38 41.7001C100.72 47.1501 104.59 37.1 104.59 37.1C104.59 37.1 109.48 35.1 111.28 41.87L117.97 1.19004L121.83 41.36C124.48 41.9682 127.257 41.6796 129.726 40.5395C132.194 39.3993 134.215 37.4721 135.47 35.0601C140.36 26.3801 147.57 23.49 153.23 36.59C153.23 36.59 158.36 47.1101 170.02 38.09C170.02 38.09 177.26 32.8101 181.69 39.4501H191.95" stroke="url(#paint0_linear_1_42)" strokeWidth="2.34" strokeLinecap="round" strokeLinejoin="round"/>
                                     </g>
@@ -140,7 +140,7 @@ const Hero = () => {
                         <div className="z-50 absolute -bottom-[13%] mobile:-bottom-[18%] right-[20%] tablet:right-[12%] mobile:right-[7%] flex flex-col gap-20 bg-black-100 rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[6.4vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
                             <div className="flex items-center gap-10 tablet:gap-[1vw] mobile:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
-                                    <svg className="w-[1vw] h-[1vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
+                                    <svg className="icon-shadow w-[1vw] h-[1vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M6.20412 2.13575C7.09202 1.88462 8.02967 1.75 9 1.75C9.97033 1.75 10.908 1.88462 11.7959 2.13575C12.1945 2.24849 12.609 2.01676 12.7217 1.61818C12.8344 1.21961 12.6027 0.805108 12.2041 0.692376C11.1847 0.404046 10.1097 0.25 9 0.25C7.89028 0.25 6.81531 0.404046 5.79588 0.692376C5.3973 0.805108 5.16558 1.21961 5.27831 1.61818C5.39104 2.01676 5.80554 2.24849 6.20412 2.13575ZM17.5 11.5C17.5 16.1944 13.6944 20 9 20C4.30558 20 0.5 16.1944 0.5 11.5C0.5 6.80558 4.30558 3 9 3C13.6944 3 17.5 6.80558 17.5 11.5ZM9.75 7C9.75 6.58579 9.41421 6.25 9 6.25C8.58579 6.25 8.25 6.58579 8.25 7V10.7007C7.80165 10.96 7.5 11.4448 7.5 12C7.5 12.8284 8.17157 13.5 9 13.5C9.82843 13.5 10.5 12.8284 10.5 12C10.5 11.4448 10.1984 10.96 9.75 10.7007V7Z" fill="white"/>
                                     </svg>
                                 </div>

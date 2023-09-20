@@ -16,4 +16,25 @@
             padding: 0 6.4vw;
         }
     }
+
+    h2 {
+        font-size: theme(fontSize.64);
+        font-weight: theme(fontWeight.black);
+
+        @media (max-width: 1024px) {
+            font-size: 3.9vw;
+        }
+
+        @media (max-width: 512px) {
+            font-size: 8.53vw;
+        }
+    }
+
+    p {
+        color: theme(colors.blue.200);
+    }
+
+    .icon-shadow {
+        filter: drop-shadow(0vw 0.2vw 0.34vw rgba(99, 117, 124, 0.80));
+    }
 }
