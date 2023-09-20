@@ -1,51 +1,51 @@
 const SpaceCommunity = () => {
   return (
-    <section className="mt-120">
-        <div className="container flex gap-[12.91vw] tablet:gap-[3.22vw]">
+    <section className="mt-120 mobile:mt-[18.66vw]">
+        <div className="container flex mobile:flex-col gap-[12.91vw] tablet:gap-[3.22vw] mobile:gap-[10.66vw]">
             <h2>Join our vibrant community of space enthusiasts where you can</h2>
-            <div className="grid grid-cols-2 grid-rows-2 gap-x-104 tablet:gap-x-[3.125vw] gap-y-74 tablet:gap-y-[3.125vw] mr-30 tablet:mr-[0]">
-                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw]">
-                    <div className="p-30 tablet:p-[1.36vw] rounded-24 tablet:rounded-[1.2vw] bg-blue-100">
-                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] h-[2vw] tablet:h-[2.34vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <div className="grid grid-cols-2 mobile:grid-cols-1 grid-rows-2 mobile:grid-rows-4 gap-x-104 tablet:gap-x-[3.125vw] gap-y-74 tablet:gap-y-[3.125vw] mobile:gap-y-[8.53vw] mr-30 tablet:mr-[0]">
+                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw] mobile:gap-[3.2vw]">
+                    <div className="p-30 tablet:p-[1.36vw] mobile:p-[3.73vw] rounded-24 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw] bg-blue-100">
+                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] mobile:w-[6.4vw] h-[2vw] tablet:h-[2.34vw] mobile:h-[6.4vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M4.35247 4.35247C4.88961 3.81533 5.77642 3.46409 7.16438 3.50282C8.55671 3.54167 10.3074 3.97576 12.3204 4.83846C13.9278 5.52737 15.6558 6.46947 17.4397 7.64095C15.6955 9.01404 13.9522 10.56 12.2562 12.2561C10.56 13.9522 9.01405 15.6956 7.64094 17.4398C6.46946 15.6559 5.52736 13.9279 4.83845 12.3204C3.97576 10.3074 3.54167 8.55674 3.50282 7.16441C3.46409 5.77643 3.81533 4.88962 4.35247 4.35247ZM13.5021 2.08103C15.5655 2.96532 17.7645 4.20419 20 5.74891C22.2354 4.2042 24.4345 2.96534 26.4978 2.08105C28.7178 1.1296 30.8541 0.556963 32.7518 0.504007C34.654 0.450929 36.4604 0.922794 37.7688 2.23118C39.0771 3.53957 39.549 5.34598 39.4959 7.24811C39.443 9.14588 38.8703 11.2821 37.9189 13.5022C37.0346 15.5655 35.7957 17.7646 34.251 20.0001C35.7957 22.2354 37.0345 24.4344 37.9187 26.4977C38.8702 28.7178 39.4428 30.854 39.4957 32.7518C39.5488 34.6539 39.077 36.4603 37.7686 37.7687C36.4602 39.0771 34.6538 39.549 32.7517 39.4959C30.8539 39.4429 28.7176 38.8703 26.4976 37.9189C24.4343 37.0346 22.2353 35.7958 20 34.2511C17.7646 35.7958 15.5656 37.0346 13.5023 37.9189C11.2823 38.8703 9.14601 39.443 7.24825 39.4959C5.34612 39.549 3.53971 39.0771 2.23133 37.7687C0.922951 36.4604 0.451089 34.6539 0.504167 32.7518C0.557122 30.854 1.12976 28.7178 2.0812 26.4977C2.96546 24.4345 4.20427 22.2354 5.74891 20.0001C4.20419 17.7646 2.96532 15.5655 2.08102 13.5022C1.12958 11.2821 0.556942 9.14586 0.503986 7.24809C0.450908 5.34596 0.92277 3.53954 2.23115 2.23116C3.53953 0.922773 5.34594 0.450908 7.24806 0.503986C9.14583 0.556942 11.2821 1.12958 13.5021 2.08103ZM14.3775 14.3774C16.2315 12.5233 18.1291 10.8734 20 9.45343C21.8709 10.8734 23.7684 12.5233 25.6224 14.3774C27.4765 16.2315 29.1265 18.1291 30.5465 20.0001C29.1265 21.871 27.4766 23.7685 25.6226 25.6226C23.7685 27.4767 21.8709 29.1266 20 30.5466C18.129 29.1266 16.2314 27.4767 14.3773 25.6225C12.5233 23.7685 10.8734 21.871 9.45342 20.0001C10.8734 18.1291 12.5234 16.2315 14.3775 14.3774ZM27.7437 12.256C29.4399 13.9522 30.9859 15.6956 32.359 17.4398C33.5305 15.6559 34.4725 13.9279 35.1615 12.3204C36.0242 10.3075 36.4582 8.55676 36.4971 7.16443C36.5358 5.77646 36.1846 4.88964 35.6474 4.3525C35.1103 3.81535 34.2235 3.46411 32.8355 3.50284C31.4432 3.54169 29.6925 3.97578 27.6796 4.83848C26.0721 5.52739 24.3441 6.46948 22.5602 7.64095C24.3044 9.01403 26.0477 10.56 27.7437 12.256ZM27.7439 27.7439C29.44 26.0478 30.9859 24.3045 32.359 22.5604C33.5304 24.3442 34.4724 26.0721 35.1613 27.6795C36.024 29.6924 36.4581 31.4431 36.4969 32.8355C36.5356 34.2234 36.1844 35.1103 35.6473 35.6474C35.1101 36.1846 34.2233 36.5358 32.8353 36.4971C31.443 36.4582 29.6923 36.0241 27.6794 35.1614C26.072 34.4725 24.344 33.5305 22.5602 32.3591C24.3045 30.986 26.0478 29.44 27.7439 27.7439ZM12.256 27.7439C13.9521 29.44 15.6955 30.986 17.4397 32.3591C15.6559 33.5305 13.9279 34.4726 12.3205 35.1614C10.3076 36.0241 8.55689 36.4582 7.16457 36.4971C5.7766 36.5358 4.88979 36.1846 4.35266 35.6474C3.81551 35.1103 3.46427 34.2235 3.503 32.8355C3.54185 31.4432 3.97594 29.6925 4.83864 27.6795C5.52751 26.0721 6.46956 24.3442 7.64096 22.5604C9.01402 24.3045 10.5599 26.0478 12.256 27.7439ZM20 24C22.2091 24 24 22.2091 24 20C24 17.7909 22.2091 16 20 16C17.7909 16 16 17.7909 16 20C16 22.2091 17.7909 24 20 24Z" fill="white"/>
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-10 tablet:gap-[0.8vw]">
-                        <h5 className="text-24 tablet:text-[1.75vw] font-extrabold">Astronomy 101</h5>
-                        <p className="text-18 tablet:text-[1.36vw] leading-180 font-medium">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
+                    <div className="flex flex-col gap-10 tablet:gap-[0.8vw] mobile:gap-[2.13vw]">
+                        <h5 className="text-24 tablet:text-[1.75vw] mobile:text-[4.8vw] font-extrabold">Astronomy 101</h5>
+                        <p className="text-18 tablet:text-[1.36vw] mobile:text-[3.73vw] leading-180 font-medium">Dive into the basics of astronomy. Learn about stars, planets, galaxies, and the tools astronomers use to explore the universe.</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw]">
-                    <div className="p-30 tablet:p-[1.36vw] rounded-24 tablet:rounded-[1.2vw] bg-blue-100">
-                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] h-[2vw] tablet:h-[2.34vw]" xmlns="http://www.w3.org/2000/svg" width="36" height="40" viewBox="0 0 36 40" fill="none">
+                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw] mobile:gap-[3.2vw]">
+                    <div className="p-30 tablet:p-[1.36vw] mobile:p-[3.73vw] rounded-24 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw] bg-blue-100">
+                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] mobile:w-[6.4vw] h-[2vw] tablet:h-[2.34vw] mobile:h-[6.4vw]" xmlns="http://www.w3.org/2000/svg" width="36" height="40" viewBox="0 0 36 40" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M14 0C11.7909 0 10 1.79086 10 4C10 6.20914 11.7909 8 14 8H22C24.2091 8 26 6.20914 26 4C26 1.79086 24.2091 0 22 0H14ZM7 4.00015H4C1.79086 4.00015 0 5.79101 0 8.00015V36.0002C0 38.2093 1.79086 40.0002 4 40.0002H32C34.2091 40.0002 36 38.2093 36 36.0002V8.00015C36 5.79101 34.2091 4.00015 32 4.00015H29C29 7.86614 25.866 11.0002 22 11.0002H14C10.134 11.0002 7 7.86614 7 4.00015ZM9.25 16C9.25 15.5858 9.58579 15.25 10 15.25H26C26.4142 15.25 26.75 15.5858 26.75 16C26.75 16.4142 26.4142 16.75 26 16.75H10C9.58579 16.75 9.25 16.4142 9.25 16ZM10 23.25C9.58579 23.25 9.25 23.5858 9.25 24C9.25 24.4142 9.58579 24.75 10 24.75H26C26.4142 24.75 26.75 24.4142 26.75 24C26.75 23.5858 26.4142 23.25 26 23.25H10ZM9.25 32C9.25 31.5858 9.58579 31.25 10 31.25H18C18.4142 31.25 18.75 31.5858 18.75 32C18.75 32.4142 18.4142 32.75 18 32.75H10C9.58579 32.75 9.25 32.4142 9.25 32Z" fill="white"/>
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-10">
-                        <h5 className="text-24 tablet:text-[1.75vw] font-extrabold">Latest Discoveries</h5>
-                        <p className="text-18 tablet:text-[1.36vw] leading-180 font-medium">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
+                    <div className="flex flex-col gap-10 tablet:gap-[0.8vw] mobile:gap-[2.13vw]">
+                        <h5 className="text-24 tablet:text-[1.75vw] mobile:text-[4.8vw] font-extrabold">Latest Discoveries</h5>
+                        <p className="text-18 tablet:text-[1.36vw] mobile:text-[3.73vw] leading-180 font-medium">Stay up-to-date with the most recent breakthroughs and discoveries in the field of astrophysics and space exploration.</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw]">
-                    <div className="p-30 tablet:p-[1.36vw] rounded-24 tablet:rounded-[1.2vw] bg-blue-100">
-                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] h-[2vw] tablet:h-[2.34vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw] mobile:gap-[3.2vw]">
+                    <div className="p-30 tablet:p-[1.36vw] mobile:p-[3.73vw] rounded-24 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw] bg-blue-100">
+                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] mobile:w-[6.4vw] h-[2vw] tablet:h-[2.34vw] mobile:h-[6.4vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M32.2663 0.425501C30.7962 1.30143 30.2926 3.24142 31.1413 4.75858L36.2638 13.9154C37.1125 15.4326 38.9922 15.9524 40.4623 15.0765C41.9323 14.2006 42.436 12.2606 41.5873 10.7434L36.4648 1.58655C35.616 0.0693863 33.7363 -0.450431 32.2663 0.425501ZM28.1166 5.34033L12.8846 14.4164C10.9246 15.5843 10.253 18.171 11.3847 20.1938L11.6769 20.7162C11.6649 20.7229 11.653 20.7297 11.6412 20.7368L4.093 25.2344L3.30887 23.8327C2.90441 23.1097 1.99044 22.8515 1.26746 23.256C0.54447 23.6604 0.286245 24.5744 0.690697 25.2974L3.7642 30.7915C4.16865 31.5145 5.08262 31.7727 5.80561 31.3682C6.5286 30.9638 6.78682 30.0498 6.38237 29.3268L5.5582 27.8536L13.1418 23.3348L13.4337 23.8566C14.5653 25.8795 17.0716 26.5726 19.0317 25.4047L21.7722 23.7717L13.7998 39.3157C13.4217 40.0528 13.7128 40.9569 14.4499 41.3349C15.187 41.713 16.0911 41.4219 16.4691 40.6848L25.3795 23.3122L34.2898 40.6848C34.6679 41.4219 35.5719 41.713 36.309 41.3349C37.0462 40.9569 37.3372 40.0528 36.9592 39.3157L27.298 20.4791L34.2874 16.3144C34.0494 16.0281 33.8342 15.7161 33.6462 15.38L28.5237 6.22316C28.3632 5.93628 28.2277 5.64108 28.1166 5.34033Z" fill="white"/>
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-10">
-                        <h5 className="text-24 tablet:text-[1.75vw] font-extrabold">Space Exploration</h5>
-                        <p className="text-18 tablet:text-[1.36vw] leading-180 font-medium">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
+                    <div className="flex flex-col gap-10 tablet:gap-[0.8vw] mobile:gap-[2.13vw]">
+                        <h5 className="text-24 tablet:text-[1.75vw] mobile:text-[4.8vw] font-extrabold">Space Exploration</h5>
+                        <p className="text-18 tablet:text-[1.36vw] mobile:text-[3.73vw] leading-180 font-medium">Explore the latest missions, both past and present, from NASA, ESA, SpaceX, and other space agencies and organizations.</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw]">
-                    <div className="p-30 tablet:p-[1.36vw] rounded-24 tablet:rounded-[1.2vw] bg-blue-100">
-                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] h-[2vw] tablet:h-[2.34vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw] mobile:gap-[3.2vw]">
+                    <div className="p-30 tablet:p-[1.36vw] mobile:p-[3.73vw] rounded-24 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw] bg-blue-100">
+                        <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] mobile:w-[6.4vw] h-[2vw] tablet:h-[2.34vw] mobile:h-[6.4vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M24.6804 11.2435C23.6847 10.7113 22.6089 10.3545 21.5 10.1851V0.0561576C24.2687 0.264391 26.9696 1.04739 29.428 2.36141C32.3286 3.91184 34.8022 6.15371 36.6294 8.88843C38.4567 11.6231 39.5814 14.7663 39.9037 18.0395C39.9188 18.1929 39.9322 18.3463 39.9437 18.4998H29.8148C29.5956 17.0653 29.0641 15.6939 28.2555 14.4837C27.3484 13.1261 26.1204 12.0132 24.6804 11.2435ZM8.8886 3.37044C11.7604 1.45158 15.0727 0.313902 18.5 0.0561523V10.1851C17.0693 10.4037 15.6974 10.9336 14.4839 11.7444C12.8511 12.8354 11.5785 14.386 10.8271 16.2003C10.0756 18.0145 9.87895 20.0108 10.262 21.9368C10.5468 23.3682 11.1422 24.713 11.9993 25.8793L4.83708 33.0415C2.59583 30.4358 1.05812 27.2892 0.384303 23.9016C-0.387401 20.022 0.00866568 16.0007 1.52242 12.3462C3.03617 8.69164 5.59962 5.56807 8.8886 3.37044ZM6.95842 35.1628C9.06347 36.9734 11.5269 38.3295 14.1944 39.1386C17.3418 40.0934 20.676 40.2572 23.9019 39.6155C27.0977 38.9799 30.0893 37.5731 32.6168 35.5181L23.6027 29.2519C23.0646 29.4614 22.5074 29.6244 21.9371 29.7378C20.3356 30.0563 18.6804 29.975 17.1179 29.501C16.0375 29.1733 15.0246 28.6649 14.1206 28.0006L6.95842 35.1628ZM29.173 23.7994C29.4798 23.0587 29.6946 22.2864 29.8148 21.4998H39.9437C39.7851 23.6086 39.2925 25.6863 38.4776 27.6535C37.5998 29.7727 36.367 31.7181 34.8389 33.4091L26.431 27.5644C27.63 26.5451 28.5702 25.2548 29.173 23.7994Z" fill="white"/>
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-10">
-                        <h5 className="text-24 tablet:text-[1.75vw] font-extrabold">Space Technology</h5>
-                        <p className="text-18 tablet:text-[1.36vw] leading-180 font-medium">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
+                    <div className="flex flex-col gap-10 tablet:gap-[0.8vw] mobile:gap-[2.13vw]">
+                        <h5 className="text-24 tablet:text-[1.75vw] mobile:text-[4.8vw] font-extrabold">Space Technology</h5>
+                        <p className="text-18 tablet:text-[1.36vw] mobile:text-[3.73vw] leading-180 font-medium">Delve into the cutting-edge technology powering space exploration, from spacecraft and telescopes to propulsion systems and space habitats.</p>
                     </div>
                 </div>
             </div>
