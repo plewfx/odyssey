@@ -3,7 +3,7 @@ const SpaceCommunity = () => {
     <section className="mt-120 mobile:mt-[18.66vw]">
         <div className="container flex mobile:flex-col gap-[12.91vw] tablet:gap-[3.22vw] mobile:gap-[10.66vw]">
             <h2>Join our vibrant community of space enthusiasts where you can</h2>
-            <div className="grid grid-cols-2 mobile:grid-cols-1 grid-rows-2 mobile:grid-rows-4 gap-x-104 tablet:gap-x-[3.125vw] gap-y-74 tablet:gap-y-[3.125vw] mobile:gap-y-[8.53vw] mr-30 tablet:mr-[0]">
+            <div className="grid grid-cols-2 mobile:grid-cols-1 grid-rows-2 mobile:grid-rows-4 gap-x-104 tablet:gap-x-[3.125vw] gap-y-74 tablet:gap-y-[3.125vw] mobile:gap-y-[0vw] mr-30 tablet:mr-[0]">
                 <div className="flex flex-col items-start gap-20 tablet:gap-[1.2vw] mobile:gap-[3.2vw]">
                     <div className="p-30 tablet:p-[1.36vw] mobile:p-[3.73vw] rounded-24 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw] bg-blue-100">
                         <svg className="icon-shadow w-[2vw] tablet:w-[2.34vw] mobile:w-[6.4vw] h-[2vw] tablet:h-[2.34vw] mobile:h-[6.4vw]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">

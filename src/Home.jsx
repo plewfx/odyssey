@@ -1,5 +1,6 @@
 import Brands from "./components/sections/Brands"
 import Hero from "./components/sections/Hero"
+import Resources from "./components/sections/Resources"
 import SpaceCommunity from "./components/sections/SpaceCommunity"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <Hero />
         <Brands />
         <SpaceCommunity />
+        <Resources />
     </>
   )
 }
