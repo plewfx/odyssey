@@ -121,7 +121,7 @@ const Hero = () => {
                                 <h3 className="font-semibold tablet:text-[1.75vw] mobile:text-[3.43vw]">Exercising</h3>
                             </div>
                             <div className="flex items-center">
-                                <svg className="icon-shadow w-[10vw] tablet:w-[17vw] mobile:w-[33.33vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
+                                <svg className="w-[10vw] tablet:w-[17vw] mobile:w-[33.33vw]" xmlns="http://www.w3.org/2000/svg" width="194" height="45" viewBox="0 0 194 45" fill="none">
                                     <g clipPath="url(#clip0_1_42)">
                                         <path d="M1.17004 41.34C1.17004 41.34 4.26005 44.4 14.55 39.64C24.84 34.88 19.7 43.2801 24.55 42.3101C29.4 41.3401 29.69 36.52 34.07 38.16C38.45 39.8 37.93 43.72 41.53 38.79C45.13 33.86 45.39 1.17004 45.39 1.17004L47.97 40.17C47.97 40.17 57.97 44.93 65.47 32.68C72.97 20.43 78.59 30.47 79.11 35.57C79.63 40.67 87.1101 44.57 91.2001 38.98C91.2001 38.98 94.04 36.2501 97.38 41.7001C100.72 47.1501 104.59 37.1 104.59 37.1C104.59 37.1 109.48 35.1 111.28 41.87L117.97 1.19004L121.83 41.36C124.48 41.9682 127.257 41.6796 129.726 40.5395C132.194 39.3993 134.215 37.4721 135.47 35.0601C140.36 26.3801 147.57 23.49 153.23 36.59C153.23 36.59 158.36 47.1101 170.02 38.09C170.02 38.09 177.26 32.8101 181.69 39.4501H191.95" stroke="url(#paint0_linear_1_42)" strokeWidth="2.34" strokeLinecap="round" strokeLinejoin="round"/>
                                     </g>
@@ -157,7 +157,7 @@ const Hero = () => {
                     <p className="font-medium leading-180 tablet:text-[1.6vw] mobile:text-[4.26vw]">At odissey, our mission is to inspire, educate, and ignite your passion for the cosmos. We are your premier destination for all things related to space exploration, astronomy, and the mysteries of the universe. Whether you're a seasoned astronomer or a curious novice, join us on a journey to the furthest reaches of the cosmos. </p>
                     <div className="flex mobile:flex-col items-center mobile:items-start justify-between mobile:gap-[11vw]">
                         <Link className="text-white text-24 tablet:text-[2vw] mobile:text-[5.33vw] font-semibold py-26 tablet:py-[2vw] mobile:py-[5.33vw] px-54 tablet:px-[4vw] mobile:px-[10.66vw] bg-black-100 shadow-black rounded-20 tablet:rounded-[1.6vw] mobile:rounded-[4.26vw]">Get Started</Link>
-                        <div className="flex items-center gap-20 tablet:gap-[1vw] mobile:gap-[3.2vw]">
+                        <div className="flex items-center gap-20 tablet:gap-[1vw] mobile:gap-[3.2vw] cursor-pointer">
                             <span className="text-24 tablet:text-[2vw] mobile:text-[5.33vw] font-semibold">{screenSize.width <= 1024 ? 'Watch Video' : 'Watch the Video'}</span>
                             <div className="p-10 tablet:p-[1vw] mobile:p-[2.5vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[3.2vw]">
                                 <svg className="w-[1vw] h-[1vw] tablet:w-[2vw] tablet:h-[2vw] mobile:w-[5.33vw] mobile:h-[5.33vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

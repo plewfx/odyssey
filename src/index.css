@@ -11,7 +11,7 @@
             max-width: 92.4%;
         }
 
-        @media (max-width: 512px) {
+        @media (max-width: 600px) {
             max-width: none;
             padding: 0 6.4vw;
         }
@@ -25,7 +25,7 @@
             font-size: 3.9vw;
         }
 
-        @media (max-width: 512px) {
+        @media (max-width: 600px) {
             font-size: 8.53vw;
         }
     }
@@ -37,4 +37,12 @@
     .icon-shadow {
         filter: drop-shadow(0vw 0.2vw 0.34vw rgba(99, 117, 124, 0.80));
     }
+}
+
+::-webkit-scrollbar-thumb {
+    background: theme(colors.black.100); 
+}
+
+::-webkit-scrollbar {
+  width: 0.5vw;
 }

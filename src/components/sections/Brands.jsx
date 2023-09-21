@@ -1,6 +1,6 @@
 const Brands = () => {
   return (
-    <section className="mt-120 mobile:mt-[200vw]">
+    <section className="mt-120 tablet:mt-[7.81vw] mobile:mt-[200vw]">
         <div className="container flex items-center justify-between mobile:grid mobile:grid-cols-2 mobile:grid-rows-2 mobile:gap-[5vw]">
             <div className="bg-spaceX bg-cover bg-no-repeat bg-center w-[15.88vw] mobile:w-full tablet:w-[27.8vw] h-[10.625vw] mobile:[5vw] opacity-30 duration-500 hover:opacity-100">
 

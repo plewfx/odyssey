@@ -1,6 +1,6 @@
 const SpaceCommunity = () => {
   return (
-    <section className="mt-120 mobile:mt-[18.66vw]">
+    <section className="mt-120 tablet:mt-[7.81vw] mobile:mt-[18.66vw]">
         <div className="container flex mobile:flex-col gap-[12.91vw] tablet:gap-[3.22vw] mobile:gap-[10.66vw]">
             <h2>Join our vibrant community of space enthusiasts where you can</h2>
             <div className="grid grid-cols-2 mobile:grid-cols-1 grid-rows-2 mobile:grid-rows-4 gap-x-104 tablet:gap-x-[3.125vw] gap-y-74 tablet:gap-y-[3.125vw] mobile:gap-y-[0vw] mr-30 tablet:mr-[0]">

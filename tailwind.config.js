@@ -8,7 +8,7 @@ module.exports = {
     theme: {
       screens: {
         'tablet': {'max': '1024px'},
-        'mobile': {'max': '512px'},        
+        'mobile': {'max': '600px'},        
       },
       fontFamily: {
         'plus-jakarta': ['Plus Jakarta Sans', 'sans-serif']
@@ -20,6 +20,7 @@ module.exports = {
       },
       lineHeight: {
         140: '140%',
+        170: '170%',
         180: '180%',
       },
       colors: {
@@ -47,11 +48,15 @@ module.exports = {
         26: '1.35vw',
         30: '1.56vw',
         36: '1.875vw',
+        40: '2vw',
         50: '2.6vw',
         52: '2.708vw',
         54: '2.81vw',
         60: '3.125vw',
         80: '4.16vw',
+        90: '4.68vw',
+        100: '5vw',
+        170: '8.85vw',
         210: '11vw',
         230: '12vw',
       },
