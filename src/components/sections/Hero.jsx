@@ -24,7 +24,7 @@ const Hero = () => {
                         <h1 className="text-white text-64 tablet:text-[3.9vw] mobile:text-[8.53vw] font-black max-w-[28%] tablet:max-w-[33%] mobile:max-w-none">Unveiling the Wonders of the Universe</h1>
                     </div>
                     <div className="absolute right-[10vw] tablet:right-[5vw] mobile:-right-[1vw] tablet:top-[16vw] mobile:top-[70vw]">
-                        <div className="z-50 absolute bottom-[25%] tablet:bottom-[17%] mobile:bottom-[17%] -left-[5%] tablet:left-0 mobile:left-[15vw] flex flex-col gap-20 tablet:gap-[1.6vw] mobile:gap-[3.2vw] bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                        <div className="z-50 absolute bottom-[25%] tablet:bottom-[17%] mobile:bottom-[17%] -left-[5%] tablet:left-0 mobile:left-[15vw] flex flex-col gap-20 tablet:gap-[1.6vw] mobile:gap-[3.2vw] bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey tablet:shadow-grey-tablet mobile:shadow-grey-mobile">
                             <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
                                     <svg className="w-[1vw] h-[1vw] icon-shadow tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -111,7 +111,7 @@ const Hero = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="z-50 absolute bottom-[45%] tablet:bottom-[38%] mobile:bottom-[40%] right-[3%] tablet:right-0 mobile:right-[7%] flex flex-col gap-20 bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] py-20 pr-36 pl-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                        <div className="z-50 absolute bottom-[45%] tablet:bottom-[38%] mobile:bottom-[40%] right-[3%] tablet:right-0 mobile:right-[7%] flex flex-col gap-20 bg-white rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[7.5vw] py-20 pr-36 pl-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey tablet:shadow-grey-tablet mobile:shadow-grey-mobile">
                             <div className="flex items-center gap-10 tablet:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
                                     <svg className="icon-shadow w-[0.9vw] h-[0.9vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
@@ -137,7 +137,7 @@ const Hero = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="z-50 absolute -bottom-[13%] mobile:-bottom-[18%] right-[20%] tablet:right-[12%] mobile:right-[7%] flex flex-col gap-20 bg-black-100 rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[6.4vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey">
+                        <div className="z-50 absolute -bottom-[13%] mobile:-bottom-[18%] right-[20%] tablet:right-[12%] mobile:right-[7%] flex flex-col gap-20 bg-black-100 rounded-24 tablet:rounded-[2.4vw] mobile:rounded-[6.4vw] p-20 tablet:p-[2vw] mobile:p-[3.2vw] shadow-grey tablet:shadow-grey-tablet mobile:shadow-grey-mobile">
                             <div className="flex items-center gap-10 tablet:gap-[1vw] mobile:gap-[3.2vw]">
                                 <div className="p-10 tablet:p-[1vw] mobile:p-[2vw] bg-blue-100 rounded-12 tablet:rounded-[1.2vw] mobile:rounded-[2vw]">
                                     <svg className="icon-shadow w-[1vw] h-[1vw] tablet:w-[1.93vw] tablet:h-[1.93vw] mobile:w-[5vw] mobile:h-[5vw]" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">

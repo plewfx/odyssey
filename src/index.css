@@ -36,6 +36,14 @@
 
     .icon-shadow {
         filter: drop-shadow(0vw 0.2vw 0.34vw rgba(99, 117, 124, 0.80));
+        
+        @media (max-width: 1024px) {
+            filter: drop-shadow(0vw 0.4vw 0.68vw rgba(99, 117, 124, 0.80));
+        }
+
+        @media (max-width: 600px) {
+            filter: drop-shadow(0vw 0.8vw 1.2vw rgba(99, 117, 124, 0.80));
+        }
     }
 }
 
