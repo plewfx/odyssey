@@ -35,8 +35,8 @@ module.exports = {
           '100': '#A9C2CB',
           '200': '#171E27',
         },
-        'grad': {
-          
+        'brown': {
+          '100': '#5C5050'
         }
       },
       boxShadow: {
@@ -75,6 +75,7 @@ module.exports = {
         48: '2.5vw',
         52: '2.708vw',
         74: '3.85vw',
+        77: '4vw',
         104: '5.41vw',
       },
       margin: {
