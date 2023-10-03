@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import "aos/dist/aos.css";
 import Layout from './components/layout/Layout'
 import Home from "./Home"
 
